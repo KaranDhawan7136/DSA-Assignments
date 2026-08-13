@@ -41,10 +41,24 @@ int main(){
     for(int i=0;i<capacity;i++){
         cin>>a[i];
     }
+
     int rot;
     cout<<"Enter the no. of elements you want to rotate: ";
     cin>>rot;
-    right_rotate(a,capacity,rot);
-    left_rotate(a,capacity,rot);
+
+    int choose;
+    cout<<"Choose from the following: "<<endl;
+    cout<<"1. Right Rotation"<<endl;
+    cout<<"2. Left Rotation"<<endl;
+    cin>>choose;
+    if(choose==1){
+        right_rotate(a,capacity,rot);
+    }
+    else if(choose==2){
+        left_rotate(a,capacity,rot);
+    }
+    else{
+        cout<<"Enter a vlaid no."<<endl;
+    }
     return 0;
 }

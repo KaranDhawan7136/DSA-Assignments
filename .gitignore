@@ -1,0 +1,96 @@
+# ==========================================
+# Prerequisites: Compiled Object files
+# ==========================================
+*.o
+*.obj
+*.ko
+*.obj
+*.elf
+*.lk
+*.gch
+*.pch
+
+# ==========================================
+# Linker Outputs / Executables / Libraries
+# ==========================================
+*.ilk
+*.map
+*.exp
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# ==========================================
+# Build Directories (CMake, Meson, Make)
+# ==========================================
+build/
+Build/
+out/
+bin/
+obj/
+Makefile
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# CLion / IntelliJ
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Xcode
+*.mode1v3
+*.mode2v3
+*.storyboard
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# ==========================================
+# Debugging & Performance Profiling
+# ==========================================
+*.gcov
+*.gcno
+*.gcda
+*.dwo
+Core
+core
+*.stackdump
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
